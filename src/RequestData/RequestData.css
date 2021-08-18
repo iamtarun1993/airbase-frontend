@@ -46,11 +46,22 @@
 }
 
 .row-container-1 .row-data-1 {
-  margin-left: 10%;;
+  margin-left: 10%;
 }
 
 .row-container-1 .row-data {
   width: 100%;
+}
+
+.row-container-2 {
+  padding: 12px 0 12px 12px;
+}
+
+.row-container-2 .row-data-2 {
+  margin-top: 10px;
+  padding-right: 5px;
+  width: auto;
+  margin-left: 0;
 }
 
 .requester-profile-pic {

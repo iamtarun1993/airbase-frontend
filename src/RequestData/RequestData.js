@@ -34,7 +34,6 @@ const RequestData = ({data}) => {
         </div>
       </div>
       
-
       <div className="row-container hide-large">
         <div className="row-title">Renewal Frequency</div>
         <div className="row-data">{data.renewal_frequency_in_months} Month</div>
@@ -58,9 +57,14 @@ const RequestData = ({data}) => {
         </div>
       </div>
 
-      <div className="row-container">
+      <div className="row-container hide-small">
         <div className="row-title">Description</div>
         <div className="row-data">{data.service.description}</div>
+      </div>
+
+      <div className="row-container-2 hide-large">
+        <div className="row-title">Description</div>
+        <div className="row-data row-data-2">{data.service.description}</div>
       </div>
     </div>
   )
