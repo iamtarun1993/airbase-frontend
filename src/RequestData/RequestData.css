@@ -1,0 +1,48 @@
+.row-container {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(34, 34, 34, 0.05);
+  padding: 12px;
+}
+
+.row-title {
+  width: 30%;
+  font-size: 14px;
+  line-height: 16px;
+  color: #222222;
+  opacity: 0.5;
+  white-space: nowrap;
+}
+
+.row-data {
+  width: 70%;
+  color: #222;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.14;
+  margin-left: 4px;
+  display: flex;
+  align-items: center;
+  max-width: 400px;
+}
+
+.requester-profile-pic {
+  height: 24px;
+  width: 24px;
+}
+
+.requester-name {
+  margin-left: 8px;
+}
+
+@media screen and (max-width: 480px) {
+  .row-title {
+    width: 40%;
+  }
+
+  .row-data {
+    width: 60%;
+  }
+}
+
+
