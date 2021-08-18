@@ -22,7 +22,7 @@ function App() {
     <div className="app">
       <div>
         <div className="logo-container">
-          <img className="logo" src={logo}></img>
+          <img className="logo" src={logo} alt="Logo"></img>
         </div>
         
         <div className="warning-block">

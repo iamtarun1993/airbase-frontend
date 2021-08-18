@@ -1,3 +1,14 @@
+
+
+# Setup and run this application in local
+1. Pull this repository from Github.
+2. Navigate inside the project directory
+3. Please do "$npm i" to install all the dependencies
+4. To run this app in local please do "$npm start"
+5. This will automatically open react app in "localhost:3000" in your default browser.
+
+### Gererated automatically. (Ignore)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
