@@ -7,7 +7,7 @@ const RequestMain = ({data}) => {
   return (
     <div className="request-main">
       <div className="request-header">
-        <img src={data.service.logo} alt="Logo" height="32px" />
+        <img className="request-logo" src={data.service.logo} alt="Logo" />
         <div className="header-title">Request for {data.service.name}</div>
       </div>
 

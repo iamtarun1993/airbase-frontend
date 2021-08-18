@@ -20,12 +20,27 @@ const RequestData = ({data}) => {
         <div className="row-data">${data.cost}</div>
       </div>
 
-      <div className="row-container">
+      <div className="row-container-same-line hide-small">
+        <div class="display-flex">
+          <div className="row-container-1">
+            <div className="row-title">Renewal Frequency</div>
+            <div className="row-data row-data-1">{data.renewal_frequency_in_months} Month</div>
+          </div>
+
+          <div className="row-container-1">
+            <div className="row-title">Annual Cost</div>
+            <div className="row-data">${data.cost * 12}</div>
+          </div>
+        </div>
+      </div>
+      
+
+      <div className="row-container hide-large">
         <div className="row-title">Renewal Frequency</div>
         <div className="row-data">{data.renewal_frequency_in_months} Month</div>
       </div>
 
-      <div className="row-container">
+      <div className="row-container hide-large">
         <div className="row-title">Annual Cost</div>
         <div className="row-data">${data.cost * 12}</div>
       </div>

@@ -4,7 +4,6 @@ import unTick from '../assets/un-tick.svg';
 import moment from 'moment';
 
 const Approver = ({approver}) => {
-  console.log(approver)
   const full_name = `${approver.approver.first_name} ${approver.approver.last_name}`
   return (
     <div className="display-flex justify-space-between container">
